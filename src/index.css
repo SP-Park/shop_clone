@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Nanum Pen Script', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply flex flex-col items-center
+}
+
+#root {
+  @apply w-full max-w-screen-2xl
+}
+
+code {
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+input {
+  @apply p-4 outline-none border border-gray-300 my-1
+}
